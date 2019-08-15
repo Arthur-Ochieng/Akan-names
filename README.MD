@@ -22,9 +22,9 @@ And as a result the user will be able to:
 ## Known Bugs
 None.
 ## Technologies Used
-HTML - For building the user interface
-CSS - For styling the user interface
-Javascript - For document object manipulation
+* HTML - For building the user interface
+* CSS - For styling the user interface
+* Javascript - For document object manipulation
 ## Support and contact details
 You can get to me through johnarthur016@gmail.com.
 ### License.
