@@ -25,6 +25,7 @@ None.
 * HTML - For building the user interface
 * CSS - For styling the user interface
 * Javascript - For document object manipulation
+* Bootstrao - For styling the interface
 ## Support and contact details
 You can get to me through johnarthur016@gmail.com.
 ### License.
