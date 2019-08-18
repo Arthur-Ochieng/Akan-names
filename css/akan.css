@@ -8,23 +8,23 @@ body {
     margin: 0%;
     padding: 0%;
 }
-.enter{
+.form{
     width: 300px;
-    padding: 50% 0 0;
+    padding: 0 0;
     margin: 0
 }
-.form{
+.enter{
     position: relative;
     z-index: 1;
-    background: #ffffff;
-    max-width: 360px;
+    background: rgb(49, 47, 47);
+    color: #fff;
+    max-width: 320px;
     margin: 0% auto 100px;
-    padding: 45px;
+    padding: 70px 30px;
     text-align: center;
     position: relative;
-    transform: translate(-70% 50%);
-    top: 25%;
-    left: 50%;
+    transform: translate(-50% -50%);
+    top: 50%;
 }
 .form input{
     font-family: "Roboto", sans-serif;
@@ -37,6 +37,40 @@ body {
     box-sizing: border-box;
     font-size: 14px;
 }
-.button{
-    background: chartreuse;
+.ghana{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+h4{
+    margin: 0%;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 18px;
+}
+.form input[type="text"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.form input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #ffc107;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 20px;
+}
+.form input[type="submit"]:hover{
+    cursor: pointer;
+    background: #f70323;
+    color: #000;
 }
