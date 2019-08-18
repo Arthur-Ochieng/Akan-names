@@ -5,37 +5,108 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Akan form</title>
+    <link rel="stylesheet" href="../Akan/css/bootsrap.css">
     <link rel="stylesheet" href="../Akan/css/akan.css">
 </head>
-<body >
+<body>
   <script src="js/akan.js"></script>
-    <div class="enter">
-      <div class="form">
-        <form action="#" method="POST" onsubmit="return validation();">
-          <table>
-            <tr>
-                <td>
-                    Birthday Date:
-                </td>
-                <td>
-                  <input type="date" name="date" id="date">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    Gender:
-                </td>
-                <td>
-                  <input type="text" name="gender" id="gender" placeholder="gender">
-                </td>
-            </tr>
-          </table><br><br><br>
-         <input class="button" type="submit" name="submit" value="submit">
-        </form>
-       <div id="eresult"></div>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>The Akan Culture</h1>
+        <p><em>Embracing the Ghanian culture</em></p>
       </div>
-
+      <br>
+      <div class="card">
+        <div class="card-body">
+          <div class="row">
+            <div class="col-md-6">
+              <img src="../Akan/images/okc.jpg" alt="p">
+            </div>
+            <div class="col-md-6">
+              <p>The Akan are a meta-ethnicity predominantly speaking Central Tano languages and
+                 residing in the southern regions of the former Gold Coast region in what is today
+                 the nation of Ghana. Akans who historically migrated from Ghana also make up a 
+                 plurality of the populace in the Ivory Coast. The Akan language (also known as Twi/Fante)
+                 is a group of dialects within the Central Tano branch of the Potou–Tano subfamily 
+                 of the Niger–Congo family.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="card">
+        <div class="card-body">
+          <div class="row">
+            <div class="col-md 4">
+            <img src="../Akan/images/hd.jpg" alt="">
+            </div>
+            <div class="col-md-4">
+              <p>Akan conflicts led to a high number of military captives being sold into slavery
+                 known as "Coromantee". These Coromantee soldiers and other Akan captives were 
+                 notorious for a large number of slave revolts and plantation resistance tactics. 
+                 These captives were feared throughout the Americas so much so that we can see their
+                 legacy within groups such as the Maroons of the Caribbean and South America.</p>
+            </div>
+            <div class="col-md-4">
+              <p>Akan culture can also be found in the New World. A number of Akans were taken as
+                 captives to the Americas. Roughly ten-percent of all slave ships embarked from the
+                 Gold Coast. The primary source of wealth within Akan economy was gold. However as 
+                 wars culminated in the region the capture and sale of Akan people peaked during 
+                 the Fante and Ashanti conflicts (as both sides sold a large number of their captives)
+                 as prisoners of war.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br>
+      <p>You can also be part of The Akan people and embrace their vast culture.By filling the form
+        you can be able to know your Akan name.Please enter the required credentials:
+      </p>
+      <br><br><br><br><br><br>
+      <div class="enter">
+        <div class="form">
+          <form action="#" method="POST" onsubmit="return validation();">
+            <table>
+              <img src="../Akan/images/ghana.jpeg" width="10%" class="ghana">
+              <tr>
+                <td>
+                  <h4>Day:</h4>
+                </td>
+                <td>
+                  <input type="text" name="day" id="day" placeholder="Siku">
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <h4>Month:</h4>
+                </td>
+                <td>
+                  <input type="text" name="month" id="month" placeholder="Mwezi">
+                </td>
+              </tr>
+              <tr>
+                <td>
+                 <h4>Year:</h4>
+                </td>
+                <td>
+                  <input type="text" name="year" id="year" placeholder="Mwaka">
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <h4>Gender</h4><br>
+                </td>
+                <td>
+                  <input type="radio" name="gender" id="male"value="male">Male
+                  <input type="radio" name="gender" id="female" value="female">Female
+                </td>
+              </tr>
+            </table><br>
+            <input class="button" type="submit" name="submit" value="submit">
+          </form>
+          <div id="eresult"></div>
+      </div>
     </div>
-    
+   </div> 
 </body>
 </html>
