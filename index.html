@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Akan form</title>
-    <link rel="stylesheet" href="../Akan/css/bootsrap.css">
+    <link rel="stylesheet" href="css/bootsrap.css">
     <link rel="stylesheet" href="../Akan/css/akan.css">
 </head>
 <body>
@@ -73,7 +73,8 @@
                   <h4>Day:</h4>
                 </td>
                 <td>
-                  <input type="text" name="day" id="day" placeholder="Siku">
+                  <input type="number" name="day" id="day" placeholder="Siku" min="1"
+                  max="31" autocomplete="bday-day" autofocus required>
                 </td>
               </tr>
               <tr>
@@ -81,7 +82,8 @@
                   <h4>Month:</h4>
                 </td>
                 <td>
-                  <input type="text" name="month" id="month" placeholder="Mwezi">
+                  <input type="number" name="month" id="month" placeholder="Mwezi" min="1
+                  " max="12" autocomplete="bday-month" required>
                 </td>
               </tr>
               <tr>
@@ -89,7 +91,8 @@
                  <h4>Year:</h4>
                 </td>
                 <td>
-                  <input type="text" name="year" id="year" placeholder="Mwaka">
+                  <input type="number" name="year" id="year" placeholder="Mwaka" min="1960"
+                  max="2019" autocomplete="bday-year" required>
                 </td>
               </tr>
               <tr>
@@ -97,8 +100,8 @@
                   <h4>Gender</h4><br>
                 </td>
                 <td>
-                  <input type="radio" name="gender" id="male"value="male">Male
-                  <input type="radio" name="gender" id="female" value="female">Female
+                  <input type="radio" name="gender" id="male"value="male" checked>Male
+                  <input type="radio" name="gender" id="female" value="female" checked>Female
                 </td>
               </tr>
             </table><br>
