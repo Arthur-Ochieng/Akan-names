@@ -81,26 +81,16 @@
       <form>
         <table>
           <img src="images/ghana.jpeg" width="10%" class="ghana">
-          <tr>
-            <td><h4>Month: <input TYPE="text" NAME="month" SIZE="2" placeholder="MM"></h4></td>
-          </tr>
-          <tr>
-            <td><h4>Day of Month: <input TYPE="text" NAME="day" SIZE="2" placeholder="DN"></h4></td>
-          </tr>
-          <tr>
-            <td><h4>Year: <input TYPE="text" NAME="year" SIZE="4" placeholder="YYYY"></h4></td>
-          </tr>
-          <p> 
-            <input TYPE="button" VALUE="MALE" ONCLICK="malecompute(this.form)"> 
-            <input TYPE="button" VALUE="FEMALE" ONCLICK="femalecompute(this.form)">
-            <input TYPE="reset" VALUE="Clear"> 
-          </p>
-          <tr>
-            <td><p>Date of Birth: <input TYPE="text" NAME="result1" SIZE="18"> </p></td>
-          </tr>
-          <tr>
-            <td><p>Your Akan Name: <input TYPE="text" NAME="result2" SIZE="18"> </p></td>
-          </tr>
+          <p>Days  : <input TYPE="text" NAME="day" SIZE="2"> </p>
+          <p>Month: <input TYPE="text" NAME="month" SIZE="2"> </p>
+          <p>Year : <input TYPE="text" NAME="year" SIZE="4"> </p>    
+          <h6><u><b>GENDER</b></h6></u></h>
+          <div class="button">
+          <p><input type="button" value="Male"  ONCLICK="compute(this.form)"></p>
+          </div> 
+          <p><input type="button" value="Female" ONCLICK="tomm(this.form)"></p>
+          <p>Date of Birth: <input TYPE="text" NAME="result1" SIZE="18"> </p>
+          <p>Akan Name: <input TYPE="text" NAME="result2" SIZE="18"> </p>
         </table>
       </form>
     </div>
