@@ -104,6 +104,5 @@ function tomm(form) {
    var val9 = parseInt(val8/7, 10)
    var val0 = val8-(val9*7)
    form.result1.value = months[val2]+" "+form.day.value +", "+form.year.value
-   form.result2.value = day[val0]
-   
+   form.result2.value = day[val0]   
 } 
